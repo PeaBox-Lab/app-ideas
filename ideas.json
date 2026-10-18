@@ -11,7 +11,8 @@
     "slug": "codeproof-ai",
     "links": [
       "https://survey.stackoverflow.co/2025/ai"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 2,
@@ -23,7 +24,8 @@
     "business": "VH; managed builds, code-signing integration",
     "tier": "advanced",
     "slug": "packforge",
-    "links": []
+    "links": [],
+    "category": "APIs & Integrations"
   },
   {
     "num": 3,
@@ -37,7 +39,8 @@
     "slug": "envdoctor",
     "links": [
       "https://stackoverflow.com/questions/61165574/cast-and-type-env-variables-using-file"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 4,
@@ -51,7 +54,8 @@
     "slug": "semanticdiff",
     "links": [
       "https://stackoverflow.com/questions/59951282/how-to-compare-different-json-output-like-gits-compare-diff-feature"
-    ]
+    ],
+    "category": "APIs & Integrations"
   },
   {
     "num": 5,
@@ -65,7 +69,8 @@
     "slug": "composerescue",
     "links": [
       "https://www.reddit.com/r/selfhosted/comments/1aqo5iu/backup_solutions_for_docker_infrastructure/"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 6,
@@ -79,7 +84,8 @@
     "slug": "csv-surgeon",
     "links": [
       "https://stackoverflow.com/questions/14984119/python-pandas-remove-duplicate-columns"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 7,
@@ -93,7 +99,8 @@
     "slug": "pdf-table-workbench",
     "links": [
       "https://stackoverflow.com/questions/17591426/how-can-i-extract-tables-as-structured-data-from-pdf-documents"
-    ]
+    ],
+    "category": "Documents & OCR"
   },
   {
     "num": 8,
@@ -107,7 +114,8 @@
     "slug": "tinylog",
     "links": [
       "https://www.reddit.com/r/selfhosted/comments/17velmx/best_platform_for_selfhosted_logs/"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 9,
@@ -121,7 +129,8 @@
     "slug": "promptledger",
     "links": [
       "https://www.reddit.com/r/llmops/comments/1cntvp0/need_help_choosing_llm_ops_tool_for_prompt/"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 10,
@@ -135,7 +144,8 @@
     "slug": "repoready",
     "links": [
       "https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 11,
@@ -147,7 +157,8 @@
     "business": "H; hosted monitoring and history",
     "tier": "intermediate",
     "slug": "datacontract-watch",
-    "links": []
+    "links": [],
+    "category": "Data Engineering"
   },
   {
     "num": 12,
@@ -161,7 +172,8 @@
     "slug": "filesafe",
     "links": [
       "https://stackoverflow.com/questions/79415185/how-to-automate-retry-on-error-when-copying-a-file-with-the-windows-explorer-c"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 13,
@@ -175,7 +187,8 @@
     "slug": "dupesafe",
     "links": [
       "https://stackoverflow.com/questions/748675/finding-duplicate-files-and-removing-them"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 14,
@@ -187,7 +200,8 @@
     "business": "H; team fixture registry and CI",
     "tier": "advanced",
     "slug": "api-replay-lab",
-    "links": []
+    "links": [],
+    "category": "DevOps & Cloud"
   },
   {
     "num": 15,
@@ -201,7 +215,8 @@
     "slug": "licensepath",
     "links": [
       "https://outlook.office365.com/owa/?ItemID=AAMkAGRmNzkyYzMxLWUyYjctNGRmNS05NGYzLTcxYzg0ODgwNzA4YgBGAAAAAACpduR0IzwYQrYsi1UriQvvBwD%2f3%2fEJsftSRJaleNj2wS7SAAAAAAEMAAD%2f3%2fEJsftSRJaleNj2wS7SAAd9ofczAAA%3d&exvsurl=1&viewmodel=ReadMessageItem"
-    ]
+    ],
+    "category": "Data Engineering"
   },
   {
     "num": 16,
@@ -215,7 +230,8 @@
     "slug": "pymemory-timeline",
     "links": [
       "https://www.reddit.com/r/Python/comments/10byj5d/what_python_library_do_you_wish_existed/"
-    ]
+    ],
+    "category": "Desktop Applications"
   },
   {
     "num": 17,
@@ -227,7 +243,8 @@
     "business": "H; hosted mappings and connectors",
     "tier": "advanced",
     "slug": "schemamapper",
-    "links": []
+    "links": [],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 18,
@@ -239,7 +256,8 @@
     "business": "H; managed public endpoints",
     "tier": "intermediate",
     "slug": "webhook-lab",
-    "links": []
+    "links": [],
+    "category": "DevOps & Cloud"
   },
   {
     "num": 19,
@@ -251,7 +269,8 @@
     "business": "H; team environment diagnostics",
     "tier": "starter",
     "slug": "portpilot",
-    "links": []
+    "links": [],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 20,
@@ -263,7 +282,8 @@
     "business": "H; enterprise masking policies",
     "tier": "advanced",
     "slug": "testdata-studio",
-    "links": []
+    "links": [],
+    "category": "Data Engineering"
   },
   {
     "num": 21,
@@ -277,7 +297,8 @@
     "slug": "issuetwin",
     "links": [
       "https://docs.github.com/issues/tracking-your-work-with-issues/creating-an-issue"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 22,
@@ -291,7 +312,8 @@
     "slug": "localnotehub",
     "links": [
       "https://www.reddit.com/r/selfhosted/comments/1am1hcz/easily_self_hosted_preferably_open_source/"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 23,
@@ -305,7 +327,8 @@
     "slug": "quickshare-vault",
     "links": [
       "https://www.reddit.com/r/selfhosted/comments/e6uxjz/biggest_selfhosting_pain_point/"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 24,
@@ -319,7 +342,8 @@
     "slug": "minidesk",
     "links": [
       "https://www.reddit.com/r/selfhosted/comments/1aqighp/looking_for_a_ticketing_system/"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 25,
@@ -333,7 +357,8 @@
     "slug": "habitplain",
     "links": [
       "https://www.reddit.com/r/selfhosted/comments/190txdu/looking_for_a_selfhosted_simple_habit_tracker/"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 26,
@@ -345,7 +370,8 @@
     "business": "H; hosted batch OCR",
     "tier": "advanced",
     "slug": "ocr-review-desk",
-    "links": []
+    "links": [],
+    "category": "Documents & OCR"
   },
   {
     "num": 27,
@@ -359,7 +385,8 @@
     "slug": "docbatch",
     "links": [
       "../../../../aditi_thakur_nagarro_com/_layouts/15/viewer.aspx?sourcedoc=%7B2b56fea4-2e72-47a0-a7e9-a9ea69cbc464%7D"
-    ]
+    ],
+    "category": "Documents & OCR"
   },
   {
     "num": 28,
@@ -373,7 +400,8 @@
     "slug": "subtitlesync",
     "links": [
       "https://www.reddit.com/r/Python/comments/10byj5d/what_python_library_do_you_wish_existed/"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 29,
@@ -385,7 +413,8 @@
     "business": "H; vendor migration packs",
     "tier": "advanced",
     "slug": "configmigrator",
-    "links": []
+    "links": [],
+    "category": "Developer Tools"
   },
   {
     "num": 30,
@@ -399,7 +428,8 @@
     "slug": "sqlite-guardian",
     "links": [
       "https://www.reddit.com/r/selfhosted/comments/1aqo5iu/backup_solutions_for_docker_infrastructure/"
-    ]
+    ],
+    "category": "DevOps & Cloud"
   },
   {
     "num": 31,
@@ -411,7 +441,8 @@
     "business": "H; managed scheduler",
     "tier": "advanced",
     "slug": "croncanvas",
-    "links": []
+    "links": [],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 32,
@@ -423,7 +454,8 @@
     "business": "M–H; hosted monitoring; crowded",
     "tier": "intermediate",
     "slug": "endpoint-watch",
-    "links": []
+    "links": [],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 33,
@@ -435,7 +467,8 @@
     "business": "H; enterprise migration support",
     "tier": "starter",
     "slug": "pathfixer",
-    "links": []
+    "links": [],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 34,
@@ -447,7 +480,8 @@
     "business": "H; NAS scheduled scans",
     "tier": "starter",
     "slug": "archivedoctor",
-    "links": []
+    "links": [],
+    "category": "Developer Tools"
   },
   {
     "num": 35,
@@ -459,7 +493,8 @@
     "business": "H; batch API",
     "tier": "starter",
     "slug": "encoding-detective",
-    "links": []
+    "links": [],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 36,
@@ -471,7 +506,8 @@
     "business": "H; ETL plugin",
     "tier": "intermediate",
     "slug": "timeclean",
-    "links": []
+    "links": [],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 37,
@@ -483,7 +519,8 @@
     "business": "M–H; media-team batch service",
     "tier": "starter",
     "slug": "contactsheet-pro",
-    "links": []
+    "links": [],
+    "category": "Documents & OCR"
   },
   {
     "num": 38,
@@ -495,7 +532,8 @@
     "business": "H; hosted team workspaces. ⚠ robots/rate limits",
     "tier": "intermediate",
     "slug": "linksentinel",
-    "links": []
+    "links": [],
+    "category": "Documents & OCR"
   },
   {
     "num": 39,
@@ -507,7 +545,8 @@
     "business": "H; enterprise templates",
     "tier": "advanced",
     "slug": "bugpack",
-    "links": []
+    "links": [],
+    "category": "APIs & Integrations"
   },
   {
     "num": 40,
@@ -519,7 +558,8 @@
     "business": "H, saturated; policy management",
     "tier": "intermediate",
     "slug": "secretscope",
-    "links": []
+    "links": [],
+    "category": "Security & Privacy"
   },
   {
     "num": 41,
@@ -533,7 +573,8 @@
     "slug": "mcp-permission-linter",
     "links": [
       "https://survey.stackoverflow.co/2025/ai"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 42,
@@ -545,7 +586,8 @@
     "business": "H; managed benchmark history",
     "tier": "advanced",
     "slug": "localllm-bench",
-    "links": []
+    "links": [],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 43,
@@ -557,7 +599,8 @@
     "business": "H; fleet planner. ⚠ hardware support load",
     "tier": "advanced",
     "slug": "modelfit",
-    "links": []
+    "links": [],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 44,
@@ -569,7 +612,8 @@
     "business": "H; curated enterprise test packs",
     "tier": "advanced",
     "slug": "promptshield-tests",
-    "links": []
+    "links": [],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 45,
@@ -583,7 +627,8 @@
     "slug": "retryrunner",
     "links": [
       "https://stackoverflow.com/questions/79415185/how-to-automate-retry-on-error-when-copying-a-file-with-the-windows-explorer-c"
-    ]
+    ],
+    "category": "Data Engineering"
   },
   {
     "num": 46,
@@ -595,7 +640,8 @@
     "business": "H; embedded commercial SDK",
     "tier": "intermediate",
     "slug": "settingspanel",
-    "links": []
+    "links": [],
+    "category": "AI Engineering & Agents"
   },
   {
     "num": 47,
@@ -607,7 +653,8 @@
     "business": "H; compliance/audit edition",
     "tier": "intermediate",
     "slug": "lineagemanifest",
-    "links": []
+    "links": [],
+    "category": "Developer Tools"
   },
   {
     "num": 48,
@@ -619,7 +666,8 @@
     "business": "H; hosted scans, audit evidence",
     "tier": "advanced",
     "slug": "accessbatch",
-    "links": []
+    "links": [],
+    "category": "APIs & Integrations"
   },
   {
     "num": 49,
@@ -631,7 +679,8 @@
     "business": "H; secure enterprise edition",
     "tier": "advanced",
     "slug": "redactreview",
-    "links": []
+    "links": [],
+    "category": "Documents & OCR"
   },
   {
     "num": 50,
@@ -645,6 +694,657 @@
     "slug": "selfhost-cost-lens",
     "links": [
       "https://www.reddit.com/r/selfhosted/comments/10k450w/self_hosting_advice_vps_vs_local_server/"
-    ]
+    ],
+    "category": "AI Engineering & Agents"
+  },
+  {
+    "num": 51,
+    "name": "RepoLens",
+    "problem": "Developers joining unfamiliar repositories spend excessive time finding entry points, boundaries, and dependencies.",
+    "product": "A local repository explorer that generates architecture maps, module summaries, entry points, and dependency relationships.",
+    "tech": "FastAPI, Tree-sitter, NetworkX, Rich",
+    "effort": "2–3 wk",
+    "business": "VH; private-repository analysis and team reports",
+    "tier": "advanced",
+    "slug": "repolens",
+    "links": [],
+    "category": "Developer Tools"
+  },
+  {
+    "num": 52,
+    "name": "DeadCode Hunter",
+    "problem": "Mature repositories accumulate unused functions, modules, and dependencies that increase maintenance risk.",
+    "product": "A static-analysis CLI that identifies probable dead code and explains each finding with confidence and evidence.",
+    "tech": "AST, Vulture, Ruff adapters, Typer",
+    "effort": "1–2 wk",
+    "business": "H; CI policy packs and organization dashboards",
+    "tier": "intermediate",
+    "slug": "deadcode-hunter",
+    "links": [],
+    "category": "Developer Tools"
+  },
+  {
+    "num": 53,
+    "name": "API Drift Watch",
+    "problem": "API implementations, specifications, and client expectations can diverge unnoticed.",
+    "product": "Compare OpenAPI definitions, running endpoints, and previous releases to report drift and breaking changes.",
+    "tech": "FastAPI, OpenAPI, httpx, Pydantic",
+    "effort": "2–3 wk",
+    "business": "VH; hosted monitoring and release gates",
+    "tier": "advanced",
+    "slug": "api-drift-watch",
+    "links": [],
+    "category": "APIs & Integrations"
+  },
+  {
+    "num": 54,
+    "name": "ConfigGuard",
+    "problem": "Configuration mistakes are often discovered only after deployment.",
+    "product": "Validate YAML, TOML, JSON, and environment files against schemas and environment-specific rules before merge.",
+    "tech": "Pydantic, JSON Schema, Typer",
+    "effort": "Weekend",
+    "business": "H; enterprise configuration policies",
+    "tier": "starter",
+    "slug": "configguard",
+    "links": [],
+    "category": "Developer Tools"
+  },
+  {
+    "num": 55,
+    "name": "StackTrace Studio",
+    "problem": "Large logs and stack traces are difficult to navigate, group, and compare.",
+    "product": "A desktop or web viewer that clusters exceptions and links stack frames directly to source files.",
+    "tech": "FastAPI or PySide6, Rich, parser adapters",
+    "effort": "2–3 wk",
+    "business": "H; team incident workspaces",
+    "tier": "advanced",
+    "slug": "stacktrace-studio",
+    "links": [],
+    "category": "Developer Tools"
+  },
+  {
+    "num": 56,
+    "name": "MigrationMap",
+    "problem": "Framework and library migrations require many scattered, interdependent changes.",
+    "product": "A rule-driven scanner that produces a migration inventory, dependency order, and progress dashboard.",
+    "tech": "Tree-sitter, AST, SQLite",
+    "effort": "3–4 wk",
+    "business": "VH; commercial migration rule packs",
+    "tier": "advanced",
+    "slug": "migrationmap",
+    "links": [],
+    "category": "Developer Tools"
+  },
+  {
+    "num": 57,
+    "name": "Dependency Radar",
+    "problem": "Project dependency relationships and duplicate transitive packages are difficult to understand.",
+    "product": "An interactive package graph highlighting direct, transitive, duplicate, vulnerable, and optional dependencies.",
+    "tech": "NetworkX, package metadata adapters, FastAPI",
+    "effort": "2–3 wk",
+    "business": "H; organization inventory and policy checks",
+    "tier": "advanced",
+    "slug": "dependency-radar",
+    "links": [],
+    "category": "Developer Tools"
+  },
+  {
+    "num": 58,
+    "name": "CommitCraft",
+    "problem": "Large mixed-purpose commits make review, release notes, and rollback harder.",
+    "product": "Analyze staged changes and recommend logical commit groups with previewable Git commands.",
+    "tech": "GitPython, Tree-sitter, Textual",
+    "effort": "1–2 wk",
+    "business": "H; team commit policies",
+    "tier": "intermediate",
+    "slug": "commitcraft",
+    "links": [],
+    "category": "Developer Tools"
+  },
+  {
+    "num": 59,
+    "name": "ContractTest Kit",
+    "problem": "Independently evolving services can silently break integration assumptions.",
+    "product": "Generate and execute lightweight consumer/provider contract tests from OpenAPI definitions and recorded examples.",
+    "tech": "pytest, Schemathesis, FastAPI",
+    "effort": "2–3 wk",
+    "business": "VH; hosted contract registry",
+    "tier": "advanced",
+    "slug": "contracttest-kit",
+    "links": [],
+    "category": "APIs & Integrations"
+  },
+  {
+    "num": 60,
+    "name": "Changelog Forge",
+    "problem": "Release documentation is frequently incomplete and inconsistent.",
+    "product": "Build structured changelogs from commits, pull-request labels, issue links, and conventional commits.",
+    "tech": "GitPython, Jinja2, Typer",
+    "effort": "Weekend",
+    "business": "H; hosted multi-repository releases",
+    "tier": "starter",
+    "slug": "changelog-forge",
+    "links": [],
+    "category": "Developer Tools"
+  },
+  {
+    "num": 61,
+    "name": "PromptVault",
+    "problem": "Useful prompts become engineering assets but remain scattered across chats, files, and applications.",
+    "product": "A Git-backed prompt registry with versions, variables, test datasets, evaluations, and ownership metadata.",
+    "tech": "FastAPI, GitPython, SQLite",
+    "effort": "2–3 wk",
+    "business": "VH; team collaboration and access control",
+    "tier": "advanced",
+    "slug": "promptvault",
+    "links": [],
+    "category": "AI Engineering & Agents"
+  },
+  {
+    "num": 62,
+    "name": "AgentAudit",
+    "problem": "Autonomous agents can modify files and run commands without an accessible audit trail.",
+    "product": "Capture tool calls, commands, file changes, approvals, and outcomes in replayable human-readable run reports.",
+    "tech": "FastAPI, SQLite, OpenTelemetry",
+    "effort": "3–4 wk",
+    "business": "VH; governance and compliance edition",
+    "tier": "advanced",
+    "slug": "agentaudit",
+    "links": [],
+    "category": "AI Engineering & Agents"
+  },
+  {
+    "num": 63,
+    "name": "LLM Cost Lab",
+    "problem": "Teams struggle to compare model quality, latency, and cost on their own workloads.",
+    "product": "Replay a versioned prompt dataset across configured models and compare usage, latency, failures, and evaluation scores.",
+    "tech": "LiteLLM adapters, pandas, Streamlit",
+    "effort": "2–3 wk",
+    "business": "VH; hosted benchmarking and shared datasets",
+    "tier": "advanced",
+    "slug": "llm-cost-lab",
+    "links": [],
+    "category": "AI Engineering & Agents"
+  },
+  {
+    "num": 64,
+    "name": "ContextPack",
+    "problem": "Coding assistants need useful repository context without sending or loading the entire codebase.",
+    "product": "Build configurable token-budgeted repository context bundles with inclusion, exclusion, and redaction rules.",
+    "tech": "Tree-sitter, tokenization adapters, Typer",
+    "effort": "2–3 wk",
+    "business": "H; organization context policies",
+    "tier": "advanced",
+    "slug": "contextpack",
+    "links": [],
+    "category": "AI Engineering & Agents"
+  },
+  {
+    "num": 65,
+    "name": "PromptTest",
+    "problem": "Prompt changes can create regressions but rarely have repeatable automated tests.",
+    "product": "A pytest-style regression framework for prompts, structured responses, rubrics, and golden datasets.",
+    "tech": "pytest plugin, Pydantic, LiteLLM adapters",
+    "effort": "2–3 wk",
+    "business": "VH; hosted evaluation runs",
+    "tier": "advanced",
+    "slug": "prompttest",
+    "links": [],
+    "category": "AI Engineering & Agents"
+  },
+  {
+    "num": 66,
+    "name": "ModelRouter Lab",
+    "problem": "Different AI tasks benefit from different models, privacy boundaries, and cost limits.",
+    "product": "A local gateway that routes requests by task, budget, privacy, availability, and context requirements.",
+    "tech": "FastAPI, LiteLLM, Redis optional",
+    "effort": "3–4 wk",
+    "business": "VH; managed gateway and policy control",
+    "tier": "advanced",
+    "slug": "modelrouter-lab",
+    "links": [],
+    "category": "AI Engineering & Agents"
+  },
+  {
+    "num": 67,
+    "name": "RAG Inspector",
+    "problem": "Retrieval-augmented generation failures are difficult to diagnose from final answers alone.",
+    "product": "Visualize retrieved chunks, scores, metadata filters, citations, and answer evidence for each query.",
+    "tech": "FastAPI, FAISS and Qdrant adapters",
+    "effort": "3–4 wk",
+    "business": "VH; team observability platform",
+    "tier": "advanced",
+    "slug": "rag-inspector",
+    "links": [],
+    "category": "AI Engineering & Agents"
+  },
+  {
+    "num": 68,
+    "name": "PII Gate",
+    "problem": "AI applications may inadvertently send sensitive values to external services.",
+    "product": "A local proxy that detects and redacts configurable personal-data patterns before outbound AI requests.",
+    "tech": "Presidio, FastAPI, regex, Pydantic",
+    "effort": "2–3 wk",
+    "business": "VH; compliance policies and audit reports",
+    "tier": "advanced",
+    "slug": "pii-gate",
+    "links": [],
+    "category": "Security & Privacy"
+  },
+  {
+    "num": 69,
+    "name": "Agent Sandbox Manager",
+    "problem": "Agent-generated commands require isolation, resource limits, and review boundaries.",
+    "product": "Run coding-agent jobs in disposable containers with filesystem, command, network, and resource policies.",
+    "tech": "Docker SDK, FastAPI, Typer",
+    "effort": "4–6 wk",
+    "business": "VH; managed secure execution",
+    "tier": "advanced",
+    "slug": "agent-sandbox-manager",
+    "links": [],
+    "category": "AI Engineering & Agents"
+  },
+  {
+    "num": 70,
+    "name": "MCP Inspector",
+    "problem": "Tool-enabled AI systems need visibility into available tools, schemas, calls, responses, and failures.",
+    "product": "A developer interface for inspecting MCP servers and safely testing tool execution.",
+    "tech": "Python MCP SDK adapters, FastAPI, WebSockets",
+    "effort": "3–4 wk",
+    "business": "VH; team registry and governance",
+    "tier": "advanced",
+    "slug": "mcp-inspector",
+    "links": [],
+    "category": "AI Engineering & Agents"
+  },
+  {
+    "num": 71,
+    "name": "PortScope",
+    "problem": "Developers lose track of services and occupied ports across local projects.",
+    "product": "A dashboard showing listening ports, owning processes, project associations, and guarded termination actions.",
+    "tech": "psutil, Textual or FastAPI",
+    "effort": "Weekend",
+    "business": "H; developer workstation suite",
+    "tier": "starter",
+    "slug": "portscope",
+    "links": [],
+    "category": "DevOps & Cloud"
+  },
+  {
+    "num": 72,
+    "name": "DockerSlim Lens",
+    "problem": "Container images often contain unnecessary layers, packages, and build artifacts.",
+    "product": "Inspect image layers and explain major size contributors with reproducible optimization suggestions.",
+    "tech": "Docker SDK, Rich, Syft adapters",
+    "effort": "2–3 wk",
+    "business": "H; CI image budgets",
+    "tier": "advanced",
+    "slug": "dockerslim-lens",
+    "links": [],
+    "category": "DevOps & Cloud"
+  },
+  {
+    "num": 73,
+    "name": "Compose Doctor",
+    "problem": "Docker Compose projects can fail because of subtle networking, volume, health-check, and configuration errors.",
+    "product": "A linter and diagnostic runner for Compose projects with evidence-backed fixes.",
+    "tech": "Docker SDK, Pydantic, YAML",
+    "effort": "2–3 wk",
+    "business": "H; team policy packs",
+    "tier": "advanced",
+    "slug": "compose-doctor",
+    "links": [],
+    "category": "DevOps & Cloud"
+  },
+  {
+    "num": 74,
+    "name": "CertWatch",
+    "problem": "Self-hosters and small teams can overlook expiring TLS certificates.",
+    "product": "Discover configured domains, monitor certificates, and send notifications through pluggable channels.",
+    "tech": "ssl, cryptography, APScheduler",
+    "effort": "Weekend",
+    "business": "H; hosted monitoring",
+    "tier": "starter",
+    "slug": "certwatch",
+    "links": [],
+    "category": "DevOps & Cloud"
+  },
+  {
+    "num": 75,
+    "name": "BackupProof",
+    "problem": "A successful backup job does not prove that restoration will work.",
+    "product": "Restore backups into disposable environments and verify expected files, checksums, schemas, or application health.",
+    "tech": "Docker, Restic adapters, pytest",
+    "effort": "3–4 wk",
+    "business": "VH; managed verification reports",
+    "tier": "advanced",
+    "slug": "backupproof",
+    "links": [],
+    "category": "DevOps & Cloud"
+  },
+  {
+    "num": 76,
+    "name": "Cron Observatory",
+    "problem": "Scheduled jobs commonly lack centralized visibility into missed runs, duration, and failures.",
+    "product": "Track job executions, output, heartbeats, missed schedules, and failure notifications in one dashboard.",
+    "tech": "FastAPI, SQLite or PostgreSQL, APScheduler",
+    "effort": "2–3 wk",
+    "business": "VH; hosted monitoring",
+    "tier": "advanced",
+    "slug": "cron-observatory",
+    "links": [],
+    "category": "DevOps & Cloud"
+  },
+  {
+    "num": 77,
+    "name": "DeployDiff",
+    "problem": "Deployment failures are hard to explain when environmental changes are not recorded.",
+    "product": "Compare configuration, containers, packages, and sanitized environment metadata between deployments.",
+    "tech": "Python, Docker SDK, SSH adapters",
+    "effort": "3–4 wk",
+    "business": "VH; release governance",
+    "tier": "advanced",
+    "slug": "deploydiff",
+    "links": [],
+    "category": "DevOps & Cloud"
+  },
+  {
+    "num": 78,
+    "name": "Homelab Control",
+    "problem": "Small self-hosted environments combine many unrelated administrative dashboards.",
+    "product": "A read-first dashboard for host health, services, containers, certificates, storage, and backups.",
+    "tech": "FastAPI, psutil, Docker SDK",
+    "effort": "3–4 wk",
+    "business": "H; support and managed hosting",
+    "tier": "advanced",
+    "slug": "homelab-control",
+    "links": [],
+    "category": "Self-Hosted"
+  },
+  {
+    "num": 79,
+    "name": "SecretSweep Local",
+    "problem": "Repositories and filesystem backups can retain exposed credentials.",
+    "product": "A local scanner with entropy, patterns, allowlists, history scanning, and safe remediation guidance.",
+    "tech": "detect-secrets adapters, GitPython, Typer",
+    "effort": "2–3 wk",
+    "business": "VH; CI and organization policies",
+    "tier": "advanced",
+    "slug": "secretsweep-local",
+    "links": [],
+    "category": "Security & Privacy"
+  },
+  {
+    "num": 80,
+    "name": "Infra Snapshot",
+    "problem": "Small infrastructure deployments lack reproducible, sanitized documentation.",
+    "product": "Inventory a host and generate Markdown and JSON snapshots covering services, packages, ports, and containers.",
+    "tech": "psutil, Docker SDK, Jinja2",
+    "effort": "1–2 wk",
+    "business": "H; fleet inventory",
+    "tier": "intermediate",
+    "slug": "infra-snapshot",
+    "links": [],
+    "category": "DevOps & Cloud"
+  },
+  {
+    "num": 81,
+    "name": "SchemaScout",
+    "problem": "Understanding an unfamiliar database requires repeated manual exploration.",
+    "product": "Generate schema diagrams, relationship hints, column profiles, and editable documentation locally.",
+    "tech": "SQLAlchemy, NetworkX, FastAPI",
+    "effort": "2–3 wk",
+    "business": "VH; private database catalogues",
+    "tier": "advanced",
+    "slug": "schemascout",
+    "links": [],
+    "category": "Data Engineering"
+  },
+  {
+    "num": 82,
+    "name": "Delimited Data Repair Lab",
+    "problem": "Real-world delimited files contain malformed rows, inconsistent types, and encoding problems.",
+    "product": "An interactive repair utility that previews transformations and preserves a complete audit log.",
+    "tech": "Polars or pandas, PyArrow, Textual",
+    "effort": "2–3 wk",
+    "business": "H; batch and team workflows",
+    "tier": "advanced",
+    "slug": "delimited-data-repair-lab",
+    "links": [],
+    "category": "Data Engineering"
+  },
+  {
+    "num": 83,
+    "name": "DataDiff Studio",
+    "problem": "Teams need understandable comparisons between dataset versions.",
+    "product": "Compare tables and files and report schema, row-level, distribution, null, and key changes.",
+    "tech": "Polars, DuckDB, FastAPI",
+    "effort": "2–3 wk",
+    "business": "VH; scheduled data-quality monitoring",
+    "tier": "advanced",
+    "slug": "datadiff-studio",
+    "links": [],
+    "category": "Data Engineering"
+  },
+  {
+    "num": 84,
+    "name": "DocStructure",
+    "problem": "Extracted document text often loses page, section, table, and reading-order structure.",
+    "product": "Convert documents and images into hierarchical JSON retaining layout relationships and source coordinates.",
+    "tech": "PyMuPDF, OCR adapters, Pydantic",
+    "effort": "3–4 wk",
+    "business": "VH; document-processing APIs",
+    "tier": "advanced",
+    "slug": "docstructure",
+    "links": [],
+    "category": "Documents & OCR"
+  },
+  {
+    "num": 85,
+    "name": "TableRescue",
+    "problem": "Tables extracted from PDFs frequently require correction before reuse.",
+    "product": "Review detected tables and repair rows, columns, merged cells, headers, and types before export.",
+    "tech": "Camelot and pdfplumber adapters, PySide6",
+    "effort": "3–4 wk",
+    "business": "VH; batch processing edition",
+    "tier": "advanced",
+    "slug": "tablerescue",
+    "links": [],
+    "category": "Documents & OCR"
+  },
+  {
+    "num": 86,
+    "name": "DuplicateDoc Finder",
+    "problem": "Organizations accumulate near-duplicate documents with changed filenames or formatting.",
+    "product": "A local fuzzy and semantic duplicate detector that groups candidates and explains matching evidence.",
+    "tech": "RapidFuzz, text extraction, optional embeddings",
+    "effort": "2–3 wk",
+    "business": "H; shared-drive cleanup reports",
+    "tier": "advanced",
+    "slug": "duplicatedoc-finder",
+    "links": [],
+    "category": "Documents & OCR"
+  },
+  {
+    "num": 87,
+    "name": "KnowledgePack",
+    "problem": "Moving knowledge between note platforms and archives is difficult.",
+    "product": "Normalize Markdown, HTML, exported notes, attachments, and metadata into a portable knowledge archive.",
+    "tech": "BeautifulSoup, Markdown, YAML, Typer",
+    "effort": "2–3 wk",
+    "business": "H; migration connectors",
+    "tier": "advanced",
+    "slug": "knowledgepack",
+    "links": [],
+    "category": "Automation & Productivity"
+  },
+  {
+    "num": 88,
+    "name": "MetadataCleaner",
+    "problem": "Shared documents and images can contain unintended author, location, device, or edit metadata.",
+    "product": "Scan, preview, and remove selected metadata before files are shared externally.",
+    "tech": "ExifTool adapter, Pillow, PyMuPDF",
+    "effort": "1–2 wk",
+    "business": "H; organization sharing policies",
+    "tier": "intermediate",
+    "slug": "metadatacleaner",
+    "links": [],
+    "category": "Security & Privacy"
+  },
+  {
+    "num": 89,
+    "name": "Dataset Card Maker",
+    "problem": "Small data and machine-learning projects often omit dataset documentation.",
+    "product": "Profile datasets and generate editable cards describing schema, quality, provenance, intended use, and limitations.",
+    "tech": "Polars or pandas, Jinja2, Great Expectations adapters",
+    "effort": "Weekend–1 wk",
+    "business": "H; catalogue integration",
+    "tier": "starter",
+    "slug": "dataset-card-maker",
+    "links": [],
+    "category": "Data Engineering"
+  },
+  {
+    "num": 90,
+    "name": "OCR Workbench",
+    "problem": "OCR applications need preprocessing, confidence review, search, and export rather than one-click extraction.",
+    "product": "A batch OCR workspace with image cleanup, confidence review, searchable results, and export adapters.",
+    "tech": "OpenCV, Tesseract or PaddleOCR adapters, PySide6",
+    "effort": "3–4 wk",
+    "business": "VH; document automation connectors",
+    "tier": "advanced",
+    "slug": "ocr-workbench",
+    "links": [],
+    "category": "Documents & OCR"
+  },
+  {
+    "num": 91,
+    "name": "Clipboard Vault",
+    "problem": "Clipboard history is useful but may retain passwords and sensitive information.",
+    "product": "An encrypted local clipboard history with exclusion rules, secret detection, and automatic retention limits.",
+    "tech": "PySide6, SQLite with encryption adapter",
+    "effort": "2–3 wk",
+    "business": "H; enterprise policy edition",
+    "tier": "advanced",
+    "slug": "clipboard-vault",
+    "links": [],
+    "category": "Security & Privacy"
+  },
+  {
+    "num": 92,
+    "name": "FileFlow",
+    "problem": "Downloads and shared folders quickly become disorganized.",
+    "product": "A previewable rule engine for naming, moving, tagging, deduplicating, and archiving files.",
+    "tech": "watchdog, Typer or PySide6, YAML",
+    "effort": "2–3 wk",
+    "business": "H; reusable rule packs",
+    "tier": "advanced",
+    "slug": "fileflow",
+    "links": [],
+    "category": "Automation & Productivity"
+  },
+  {
+    "num": 93,
+    "name": "Screenshot Library",
+    "problem": "Screenshots become an unsearchable personal knowledge store.",
+    "product": "A local screenshot organizer using OCR, tags, application metadata, deduplication, and full-text search.",
+    "tech": "OCR adapters, SQLite FTS5, PySide6",
+    "effort": "3–4 wk",
+    "business": "VH; encrypted sync",
+    "tier": "advanced",
+    "slug": "screenshot-library",
+    "links": [],
+    "category": "Desktop Applications"
+  },
+  {
+    "num": 94,
+    "name": "LinkArchive",
+    "problem": "Bookmarks disappear, change, or lose the context for why they were saved.",
+    "product": "A local-first bookmark manager storing metadata, notes, tags, and permitted snapshots with integrity checks.",
+    "tech": "FastAPI, SQLite, BeautifulSoup",
+    "effort": "2–3 wk",
+    "business": "H; hosted sync and teams",
+    "tier": "advanced",
+    "slug": "linkarchive",
+    "links": [],
+    "category": "Automation & Productivity"
+  },
+  {
+    "num": 95,
+    "name": "MeetingPack",
+    "problem": "Meeting notes, actions, files, and decisions become fragmented across tools.",
+    "product": "A local workspace that packages meeting artifacts into a searchable timeline with explicit actions and decisions.",
+    "tech": "FastAPI or PySide6, SQLite, local search",
+    "effort": "2–3 wk",
+    "business": "H; collaboration and connectors",
+    "tier": "advanced",
+    "slug": "meetingpack",
+    "links": [],
+    "category": "Automation & Productivity"
+  },
+  {
+    "num": 96,
+    "name": "DecisionLog",
+    "problem": "Technical and business decisions lose context, alternatives, and rationale over time.",
+    "product": "A Git-friendly ADR manager with context, options, owners, status, links, and supersession relationships.",
+    "tech": "Typer, Markdown, GitPython",
+    "effort": "1–2 wk",
+    "business": "VH; team governance dashboard",
+    "tier": "intermediate",
+    "slug": "decisionlog",
+    "links": [],
+    "category": "Developer Tools"
+  },
+  {
+    "num": 97,
+    "name": "Personal Data Map",
+    "problem": "Users cannot easily see where sensitive information exists across their own folders.",
+    "product": "A local scanner that classifies likely sensitive files and builds a reviewable privacy inventory.",
+    "tech": "Presidio, regex, SQLite, PySide6",
+    "effort": "3–4 wk",
+    "business": "VH; organization privacy assessments",
+    "tier": "advanced",
+    "slug": "personal-data-map",
+    "links": [],
+    "category": "Security & Privacy"
+  },
+  {
+    "num": 98,
+    "name": "ArchiveVerify",
+    "problem": "Large personal and organizational archives can slowly accumulate corrupted or altered files.",
+    "product": "Generate manifests and hashes, run periodic integrity audits, and record approved repair sources.",
+    "tech": "hashlib, SQLite, Rich",
+    "effort": "Weekend",
+    "business": "H; scheduled server edition",
+    "tier": "starter",
+    "slug": "archiveverify",
+    "links": [],
+    "category": "Security & Privacy"
+  },
+  {
+    "num": 99,
+    "name": "Workspace Restore",
+    "problem": "Switching development projects requires reopening tools, directories, terminals, services, and URLs.",
+    "product": "Save and restore project workspaces with guarded process launching and portable profiles.",
+    "tech": "psutil, subprocess, YAML, PySide6",
+    "effort": "2–3 wk",
+    "business": "H; team workspace templates",
+    "tier": "advanced",
+    "slug": "workspace-restore",
+    "links": [],
+    "category": "Desktop Applications"
+  },
+  {
+    "num": 100,
+    "name": "LocalShare",
+    "problem": "Sharing files between nearby trusted devices should not require permanent cloud storage.",
+    "product": "A temporary LAN transfer service with QR pairing, encrypted sessions, expiration, and transfer verification.",
+    "tech": "FastAPI, WebSockets, cryptography",
+    "effort": "2–3 wk",
+    "business": "VH; managed relay and device administration",
+    "tier": "advanced",
+    "slug": "localshare",
+    "links": [],
+    "category": "APIs & Integrations"
   }
 ]
