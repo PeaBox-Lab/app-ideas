@@ -1,0 +1,650 @@
+[
+  {
+    "num": 1,
+    "name": "CodeProof AI",
+    "problem": "AI-generated code frequently looks correct but requires costly verification; distrust exceeds trust among developers. [survey.sta...verflow.co]",
+    "product": "CLI/GitHub Action that generates tests, checks imports/types/security and produces an evidence-backed confidence report—not another code generator.",
+    "tech": "Typer, pytest, mypy, Ruff, Bandit, Semgrep adapters",
+    "effort": "3–4 wk",
+    "business": "VH; hosted private-repo scans, policy packs",
+    "tier": "advanced",
+    "slug": "codeproof-ai",
+    "links": [
+      "https://survey.stackoverflow.co/2025/ai"
+    ]
+  },
+  {
+    "num": 2,
+    "name": "PackForge",
+    "problem": "Packaging Python GUI apps across Windows, macOS and Linux still involves hidden imports, resources, signing and installer-specific work. [reddit.com], [reddit.com]",
+    "product": "Interactive wizard that inspects a project and generates tested PyInstaller/Nuitka specs plus GitHub Actions releases.",
+    "tech": "FastAPI or PySide6, PyInstaller, Nuitka, GitHub Actions",
+    "effort": "3–4 wk",
+    "business": "VH; managed builds, code-signing integration",
+    "tier": "advanced",
+    "slug": "packforge",
+    "links": []
+  },
+  {
+    "num": 3,
+    "name": "EnvDoctor",
+    "problem": "Developers repeatedly struggle with missing, mistyped and string-only environment variables; manual casting is error-prone. [stackoverflow.com]",
+    "product": "Validate .env files against typed schemas; identify missing/unused variables; generate Pydantic settings and sanitized .env.example.",
+    "tech": "Typer, Pydantic Settings, Rich",
+    "effort": "Weekend",
+    "business": "VH; CI policy, secrets-manager connectors",
+    "tier": "starter",
+    "slug": "envdoctor",
+    "links": [
+      "https://stackoverflow.com/questions/61165574/cast-and-type-env-variables-using-file"
+    ]
+  },
+  {
+    "num": 4,
+    "name": "SemanticDiff",
+    "problem": "Text diffs are noisy for JSON/YAML where key order is irrelevant; developers want Git-style, human-readable structural changes. [stackoverflow.com]",
+    "product": "Semantic JSON/YAML/TOML/OpenAPI diff with identity keys, ignored paths, breaking-change rules and HTML/Markdown reports.",
+    "tech": "DeepDiff, ruamel.yaml, Pydantic, Typer",
+    "effort": "1–2 wk",
+    "business": "VH; CI service, private schema registry",
+    "tier": "intermediate",
+    "slug": "semanticdiff",
+    "links": [
+      "https://stackoverflow.com/questions/59951282/how-to-compare-different-json-output-like-gits-compare-diff-feature"
+    ]
+  },
+  {
+    "num": 5,
+    "name": "ComposeRescue",
+    "problem": "Docker users maintain custom scripts for volumes, database dumps, shutdown ordering and restore testing. [reddit.com]",
+    "product": "Analyse Compose files, create app-consistent backups and prove them by restoring into temporary containers.",
+    "tech": "Docker SDK, Typer, Restic/Borg adapters, SQLite",
+    "effort": "3–4 wk",
+    "business": "VH; managed backups, encrypted cloud targets",
+    "tier": "advanced",
+    "slug": "composerescue",
+    "links": [
+      "https://www.reddit.com/r/selfhosted/comments/1aqo5iu/backup_solutions_for_docker_infrastructure/"
+    ]
+  },
+  {
+    "num": 6,
+    "name": "CSV Surgeon",
+    "problem": "Duplicate headers, malformed rows and inconsistent types keep generating one-off Pandas fixes; one duplicate-column question has extensive answers and continued updates. [stackoverflow.com]",
+    "product": "Local drag-and-drop data profiler with previewable repairs and a reproducible transformation recipe.",
+    "tech": "Polars, DuckDB, Streamlit, charset-normalizer",
+    "effort": "1–2 wk",
+    "business": "VH; batch API and team rule libraries",
+    "tier": "intermediate",
+    "slug": "csv-surgeon",
+    "links": [
+      "https://stackoverflow.com/questions/14984119/python-pandas-remove-duplicate-columns"
+    ]
+  },
+  {
+    "num": 7,
+    "name": "PDF Table Workbench",
+    "problem": "PDF tables lack a reliable semantic layer; Camelot, Tabula and pdfplumber each work on different document classes. [stackoverflow.com]",
+    "product": "Run multiple extractors, overlay detected cells, let users correct boundaries, then export CSV plus reusable templates.",
+    "tech": "PyMuPDF, pdfplumber, Camelot, OpenCV, Streamlit",
+    "effort": "3–4 wk",
+    "business": "VH; hosted OCR/batch extraction",
+    "tier": "advanced",
+    "slug": "pdf-table-workbench",
+    "links": [
+      "https://stackoverflow.com/questions/17591426/how-can-i-extract-tables-as-structured-data-from-pdf-documents"
+    ]
+  },
+  {
+    "num": 8,
+    "name": "TinyLog",
+    "problem": "Self-hosters want centralized logs without the operational weight of ELK/Grafana stacks. [reddit.com]",
+    "product": "Single-container log inbox with tailing, search, retention, simple alerts and no query language requirement.",
+    "tech": "FastAPI, DuckDB/Parquet, WebSockets, HTMX",
+    "effort": "3–4 wk",
+    "business": "H; managed retention and team alerts",
+    "tier": "advanced",
+    "slug": "tinylog",
+    "links": [
+      "https://www.reddit.com/r/selfhosted/comments/17velmx/best_platform_for_selfhosted_logs/"
+    ]
+  },
+  {
+    "num": 9,
+    "name": "PromptLedger",
+    "problem": "Teams want prompt storage, visual diffs, batch evaluation and drift reporting without replacing their application architecture. [reddit.com]",
+    "product": "Git-native prompt registry and eval runner using decorators rather than an intrusive LLM framework.",
+    "tech": "FastAPI, SQLite, Jinja2, LiteLLM, pytest-style plugins",
+    "effort": "3–4 wk",
+    "business": "H; hosted collaboration and private datasets",
+    "tier": "advanced",
+    "slug": "promptledger",
+    "links": [
+      "https://www.reddit.com/r/llmops/comments/1cntvp0/need_help_choosing_llm_ops_tool_for_prompt/"
+    ]
+  },
+  {
+    "num": 10,
+    "name": "RepoReady",
+    "problem": "GitHub reports that contributor guides and Codes of Conduct remain uncommon despite rapid OSS growth. [github.blog]",
+    "product": "Audit repository readiness and generate missing LICENSE, security policy, CI, release, issue-template and contributor files.",
+    "tech": "Typer, GitHub API, Jinja2, pre-commit",
+    "effort": "Weekend",
+    "business": "VH; organization-wide compliance dashboards",
+    "tier": "starter",
+    "slug": "repoready",
+    "links": [
+      "https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/"
+    ]
+  },
+  {
+    "num": 11,
+    "name": "DataContract Watch",
+    "problem": "CSV/API pipelines silently break when columns, types or null patterns change.",
+    "product": "Capture a lightweight data contract, compare new deliveries and emit actionable schema/drift reports.",
+    "tech": "Pandera, Polars, Pydantic, GitHub Action",
+    "effort": "1–2 wk",
+    "business": "H; hosted monitoring and history",
+    "tier": "intermediate",
+    "slug": "datacontract-watch",
+    "links": []
+  },
+  {
+    "num": 12,
+    "name": "FileSafe",
+    "problem": "File-copy automation commonly needs retries, resumability, verification and useful logs rather than silent failure. [stackoverflow.com]",
+    "product": "Cross-platform copy/sync utility with checksums, atomic writes, restartable manifests and dry-run conflict handling.",
+    "tech": "pathlib, hashlib, SQLite, Rich, watchdog",
+    "effort": "1–2 wk",
+    "business": "H; managed endpoints and support",
+    "tier": "intermediate",
+    "slug": "filesafe",
+    "links": [
+      "https://stackoverflow.com/questions/79415185/how-to-automate-retry-on-error-when-copying-a-file-with-the-windows-explorer-c"
+    ]
+  },
+  {
+    "num": 13,
+    "name": "DupeSafe",
+    "problem": "Duplicate-file detection remains a durable problem, with users repeatedly rebuilding size/hash pipelines and risky deletion scripts. [stackoverflow.com]",
+    "product": "Exact and perceptual duplicate finder with preview, reversible quarantine and “why matched” evidence.",
+    "tech": "xxhash, imagehash, Pillow, PySide6",
+    "effort": "1–2 wk",
+    "business": "H; NAS edition and scheduled scans",
+    "tier": "intermediate",
+    "slug": "dupesafe",
+    "links": [
+      "https://stackoverflow.com/questions/748675/finding-duplicate-files-and-removing-them"
+    ]
+  },
+  {
+    "num": 14,
+    "name": "API Replay Lab",
+    "problem": "Developers repeatedly hand-build request logging, mock servers and regression fixtures.",
+    "product": "Record, sanitize and replay HTTP interactions; generate deterministic pytest tests and mock APIs.",
+    "tech": "FastAPI, mitmproxy adapter, pytest, SQLite",
+    "effort": "2–3 wk",
+    "business": "H; team fixture registry and CI",
+    "tier": "advanced",
+    "slug": "api-replay-lab",
+    "links": []
+  },
+  {
+    "num": 15,
+    "name": "LicensePath",
+    "problem": "Python projects can discover license concerns late and then manually compare replacement libraries; this issue also exists in your organizational context. [Request fo...es Drivers | Outlook]",
+    "product": "Dependency-license graph with policy rules, transitive notices and migration suggestions—without giving legal conclusions.",
+    "tech": "importlib.metadata, CycloneDX, ScanCode data, Typer",
+    "effort": "2–3 wk",
+    "business": "H; enterprise policy/SBOM reporting",
+    "tier": "advanced",
+    "slug": "licensepath",
+    "links": [
+      "https://outlook.office365.com/owa/?ItemID=AAMkAGRmNzkyYzMxLWUyYjctNGRmNS05NGYzLTcxYzg0ODgwNzA4YgBGAAAAAACpduR0IzwYQrYsi1UriQvvBwD%2f3%2fEJsftSRJaleNj2wS7SAAAAAAEMAAD%2f3%2fEJsftSRJaleNj2wS7SAAd9ofczAAA%3d&exvsurl=1&viewmodel=ReadMessageItem"
+    ]
+  },
+  {
+    "num": 16,
+    "name": "PyMemory Timeline",
+    "problem": "Developers want interactive runtime memory views, cross-platform support and comparison across code versions. [reddit.com]",
+    "product": "Attach to a process, graph RSS/USS/object growth and compare two runs with leak candidates.",
+    "tech": "psutil, tracemalloc, objgraph, NiceGUI",
+    "effort": "3–4 wk",
+    "business": "H; CI regression monitoring",
+    "tier": "advanced",
+    "slug": "pymemory-timeline",
+    "links": [
+      "https://www.reddit.com/r/Python/comments/10byj5d/what_python_library_do_you_wish_existed/"
+    ]
+  },
+  {
+    "num": 17,
+    "name": "SchemaMapper",
+    "problem": "Moving between CSV, JSON, Excel and database schemas requires repetitive mapping scripts.",
+    "product": "Infer schemas, visually map fields, preview coercions and export reusable mapping code.",
+    "tech": "Polars, Pydantic, SQLModel, Streamlit",
+    "effort": "2–3 wk",
+    "business": "H; hosted mappings and connectors",
+    "tier": "advanced",
+    "slug": "schemamapper",
+    "links": []
+  },
+  {
+    "num": 18,
+    "name": "Webhook Lab",
+    "problem": "Webhook development needs public endpoints, payload inspection, retries and signature debugging.",
+    "product": "Self-hosted request inbox, replay tool, transformer and signature verifier.",
+    "tech": "FastAPI, Redis/SQLite, HTMX, Docker",
+    "effort": "1–2 wk",
+    "business": "H; managed public endpoints",
+    "tier": "intermediate",
+    "slug": "webhook-lab",
+    "links": []
+  },
+  {
+    "num": 19,
+    "name": "PortPilot",
+    "problem": "Local stacks fail because ports are occupied, services bind incorrectly or containers expose unintended interfaces.",
+    "product": "Scan Compose files and running processes; show conflicts and propose safe alternative ports.",
+    "tech": "psutil, Docker SDK, Typer, Rich",
+    "effort": "Weekend",
+    "business": "H; team environment diagnostics",
+    "tier": "starter",
+    "slug": "portpilot",
+    "links": []
+  },
+  {
+    "num": 20,
+    "name": "TestData Studio",
+    "problem": "Developers need realistic test data but cannot safely copy production records.",
+    "product": "Schema-aware generator with referential integrity, deterministic seeds and configurable masking.",
+    "tech": "Faker, Pydantic, SQLAlchemy, Streamlit",
+    "effort": "2–3 wk",
+    "business": "H; enterprise masking policies",
+    "tier": "advanced",
+    "slug": "testdata-studio",
+    "links": []
+  },
+  {
+    "num": 21,
+    "name": "IssueTwin",
+    "problem": "Maintainers repeatedly triage semantically duplicate issues; GitHub’s native suggestions are non-blocking and limited to a few candidates. [docs.github.com]",
+    "product": "Local issue-clustering dashboard with explainable similarity and maintainer-approved duplicate comments.",
+    "tech": "GitHub API, sentence-transformers, FAISS, Streamlit",
+    "effort": "2–3 wk",
+    "business": "H; hosted org-wide triage. ⚠ API limits",
+    "tier": "advanced",
+    "slug": "issuetwin",
+    "links": [
+      "https://docs.github.com/issues/tracking-your-work-with-issues/creating-an-issue"
+    ]
+  },
+  {
+    "num": 22,
+    "name": "LocalNoteHub",
+    "problem": "Users seek browser-based, Markdown-native notes with folders, sharing and uncomplicated self-hosting. [reddit.com]",
+    "product": "Files remain plain Markdown; add web editing, Git history, expiring share links and no proprietary database.",
+    "tech": "FastAPI, Markdown-it, watchdog, Git",
+    "effort": "2–3 wk",
+    "business": "H, but crowded; managed sync/backup",
+    "tier": "advanced",
+    "slug": "localnotehub",
+    "links": [
+      "https://www.reddit.com/r/selfhosted/comments/1am1hcz/easily_self_hosted_preferably_open_source/"
+    ]
+  },
+  {
+    "num": 23,
+    "name": "QuickShare Vault",
+    "problem": "Self-hosters report unnecessary account management merely to share one file temporarily. [reddit.com]",
+    "product": "One-command encrypted upload with expiry, download limit and optional recipient password.",
+    "tech": "FastAPI, cryptography, S3/local storage",
+    "effort": "1–2 wk",
+    "business": "H; hosted relay. ⚠ security burden",
+    "tier": "intermediate",
+    "slug": "quickshare-vault",
+    "links": [
+      "https://www.reddit.com/r/selfhosted/comments/e6uxjz/biggest_selfhosting_pain_point/"
+    ]
+  },
+  {
+    "num": 24,
+    "name": "MiniDesk",
+    "problem": "Solo help-desk users find conventional ticketing products excessive and sometimes build simple forms over GitHub/Gitea Issues. [reddit.com]",
+    "product": "Email/form-to-GitHub-Issue bridge with reminders, attachments and personal queue—no full ITSM suite.",
+    "tech": "FastAPI, GitHub/Gitea APIs, IMAP, HTMX",
+    "effort": "2–3 wk",
+    "business": "H; managed integrations",
+    "tier": "advanced",
+    "slug": "minidesk",
+    "links": [
+      "https://www.reddit.com/r/selfhosted/comments/1aqighp/looking_for_a_ticketing_system/"
+    ]
+  },
+  {
+    "num": 25,
+    "name": "HabitPlain",
+    "problem": "Users ask for a lightweight self-hosted habit tracker without gamification or heavyweight productivity suites. [reddit.com]",
+    "product": "Mobile-first PWA for schedules, streaks, CSV export and reminders; local-first by default.",
+    "tech": "Django, HTMX, SQLite, PWA",
+    "effort": "1–2 wk",
+    "business": "M–H; hosted family/team tier",
+    "tier": "intermediate",
+    "slug": "habitplain",
+    "links": [
+      "https://www.reddit.com/r/selfhosted/comments/190txdu/looking_for_a_selfhosted_simple_habit_tracker/"
+    ]
+  },
+  {
+    "num": 26,
+    "name": "OCR Review Desk",
+    "problem": "OCR pipelines often lack a fast human correction stage.",
+    "product": "Side-by-side scan/text review, confidence highlighting, keyboard correction and searchable export.",
+    "tech": "PaddleOCR/Tesseract, PyMuPDF, FastAPI",
+    "effort": "3–4 wk",
+    "business": "H; hosted batch OCR",
+    "tier": "advanced",
+    "slug": "ocr-review-desk",
+    "links": []
+  },
+  {
+    "num": 27,
+    "name": "DocBatch",
+    "problem": "Document/certificate generation commonly combines templates, coordinates, local execution, review and SharePoint upload—also visible in your current automation work. [Old is Gol...Recording | Video]",
+    "product": "Template-driven image/PDF generation with CSV input, validation, approval manifest and connector plugins.",
+    "tech": "Pillow, PyMuPDF, Jinja2, FastAPI",
+    "effort": "2–3 wk",
+    "business": "H; managed workflows/connectors",
+    "tier": "advanced",
+    "slug": "docbatch",
+    "links": [
+      "../../../../aditi_thakur_nagarro_com/_layouts/15/viewer.aspx?sourcedoc=%7B2b56fea4-2e72-47a0-a7e9-a9ea69cbc464%7D"
+    ]
+  },
+  {
+    "num": 28,
+    "name": "SubtitleSync",
+    "problem": "Python users explicitly request maintained tooling to align out-of-sync subtitles using speech recognition. [reddit.com]",
+    "product": "Local subtitle alignment, drift correction and confidence review without uploading media.",
+    "tech": "faster-whisper, ffmpeg, pysrt, PySide6",
+    "effort": "2–3 wk",
+    "business": "H; batch/studio edition",
+    "tier": "advanced",
+    "slug": "subtitlesync",
+    "links": [
+      "https://www.reddit.com/r/Python/comments/10byj5d/what_python_library_do_you_wish_existed/"
+    ]
+  },
+  {
+    "num": 29,
+    "name": "ConfigMigrator",
+    "problem": "Upgrades often require repetitive edits across YAML, TOML, JSON and environment files.",
+    "product": "Declarative migration recipes, semantic preview, rollback and repository-wide application.",
+    "tech": "LibCST, ruamel.yaml, tomlkit, Typer",
+    "effort": "2–3 wk",
+    "business": "H; vendor migration packs",
+    "tier": "advanced",
+    "slug": "configmigrator",
+    "links": []
+  },
+  {
+    "num": 30,
+    "name": "SQLite Guardian",
+    "problem": "Self-hosters are unsure how to safely back up live SQLite-backed applications. [reddit.com]",
+    "product": "Discover SQLite files, run online backup, integrity-check snapshots and perform automated restore drills.",
+    "tech": "sqlite3, Docker SDK, Typer",
+    "effort": "1–2 wk",
+    "business": "H; fleet scheduling and alerts",
+    "tier": "intermediate",
+    "slug": "sqlite-guardian",
+    "links": [
+      "https://www.reddit.com/r/selfhosted/comments/1aqo5iu/backup_solutions_for_docker_infrastructure/"
+    ]
+  },
+  {
+    "num": 31,
+    "name": "CronCanvas",
+    "problem": "Scheduling scripts differs across cron, Windows Task Scheduler and containers.",
+    "product": "Cross-platform UI/CLI that generates, validates and monitors schedules with portable YAML definitions.",
+    "tech": "APScheduler, Typer, NiceGUI",
+    "effort": "2–3 wk",
+    "business": "H; managed scheduler",
+    "tier": "advanced",
+    "slug": "croncanvas",
+    "links": []
+  },
+  {
+    "num": 32,
+    "name": "Endpoint Watch",
+    "problem": "Small services need straightforward uptime, certificate and API-shape monitoring without a large observability stack.",
+    "product": "YAML-configured checks, assertion rules, history and webhook/email alerts.",
+    "tech": "httpx, FastAPI, APScheduler, SQLite",
+    "effort": "1–2 wk",
+    "business": "M–H; hosted monitoring; crowded",
+    "tier": "intermediate",
+    "slug": "endpoint-watch",
+    "links": []
+  },
+  {
+    "num": 33,
+    "name": "PathFixer",
+    "problem": "Extracted ZIPs and copied projects often contain invalid paths, excessive nesting or case collisions.",
+    "product": "Preflight archives, preview safe renames and create a reversible extraction manifest.",
+    "tech": "zipfile, pathlib, Typer, PySide6",
+    "effort": "Weekend",
+    "business": "H; enterprise migration support",
+    "tier": "starter",
+    "slug": "pathfixer",
+    "links": []
+  },
+  {
+    "num": 34,
+    "name": "ArchiveDoctor",
+    "problem": "Users discover corrupt archives only when restoration is required.",
+    "product": "Recursively inventory archives, test integrity, detect multipart sets and create verification reports.",
+    "tech": "zipfile, tarfile, py7zr, Rich",
+    "effort": "Weekend",
+    "business": "H; NAS scheduled scans",
+    "tier": "starter",
+    "slug": "archivedoctor",
+    "links": []
+  },
+  {
+    "num": 35,
+    "name": "Encoding Detective",
+    "problem": "CSV/text workflows repeatedly fail from mixed encodings and invisible characters.",
+    "product": "Compare detectors, highlight suspicious bytes, preview normalization and save a provenance report.",
+    "tech": "charset-normalizer, ftfy, Polars, Streamlit",
+    "effort": "Weekend",
+    "business": "H; batch API",
+    "tier": "starter",
+    "slug": "encoding-detective",
+    "links": []
+  },
+  {
+    "num": 36,
+    "name": "TimeClean",
+    "problem": "Mixed offsets, daylight-saving transitions and non-standard date formats cause recurring Pandas confusion.",
+    "product": "Profile datetime columns, explain ambiguity, preview UTC conversion and output reproducible rules.",
+    "tech": "Pandas/Polars, dateutil, zoneinfo, Streamlit",
+    "effort": "1–2 wk",
+    "business": "H; ETL plugin",
+    "tier": "intermediate",
+    "slug": "timeclean",
+    "links": []
+  },
+  {
+    "num": 37,
+    "name": "ContactSheet Pro",
+    "problem": "Reviewing thousands of images manually requires scattered scripts.",
+    "product": "Generate searchable HTML/PDF contact sheets with metadata, duplicate groups and selection export.",
+    "tech": "Pillow, ExifTool adapter, Jinja2",
+    "effort": "Weekend",
+    "business": "M–H; media-team batch service",
+    "tier": "starter",
+    "slug": "contactsheet-pro",
+    "links": []
+  },
+  {
+    "num": 38,
+    "name": "LinkSentinel",
+    "problem": "Bookmark collections and documentation accumulate redirects and dead links.",
+    "product": "Local crawler with redirect history, duplicate detection, archive suggestions and scheduled reports.",
+    "tech": "httpx, BeautifulSoup, SQLite, FastAPI",
+    "effort": "1–2 wk",
+    "business": "H; hosted team workspaces. ⚠ robots/rate limits",
+    "tier": "intermediate",
+    "slug": "linksentinel",
+    "links": []
+  },
+  {
+    "num": 39,
+    "name": "BugPack",
+    "problem": "Bug reports frequently omit environment, logs and reproducible steps.",
+    "product": "Capture screenshot, redact sensitive regions and package system/app diagnostics into a GitHub-ready report.",
+    "tech": "PySide6, Pillow, psutil, GitHub API",
+    "effort": "2–3 wk",
+    "business": "H; enterprise templates",
+    "tier": "advanced",
+    "slug": "bugpack",
+    "links": []
+  },
+  {
+    "num": 40,
+    "name": "SecretScope",
+    "problem": "Developers accidentally commit secrets or distribute unsafe .env files.",
+    "product": "Local scanner with entropy/pattern checks, commit-history mode and guided rotation checklist.",
+    "tech": "detect-secrets adapters, GitPython, Typer",
+    "effort": "1–2 wk",
+    "business": "H, saturated; policy management",
+    "tier": "intermediate",
+    "slug": "secretscope",
+    "links": []
+  },
+  {
+    "num": 41,
+    "name": "MCP Permission Linter",
+    "problem": "AI tool integrations can silently expose powerful filesystem, shell or network capabilities; developers report strong privacy/security concern around agents. [survey.sta...verflow.co]",
+    "product": "Inspect MCP manifests/tool definitions and produce least-privilege warnings and allowlists.",
+    "tech": "Pydantic, JSON Schema, Typer",
+    "effort": "1–2 wk",
+    "business": "H; enterprise policy packs",
+    "tier": "intermediate",
+    "slug": "mcp-permission-linter",
+    "links": [
+      "https://survey.stackoverflow.co/2025/ai"
+    ]
+  },
+  {
+    "num": 42,
+    "name": "LocalLLM Bench",
+    "problem": "Users compare local models with inconsistent prompts and subjective impressions.",
+    "product": "Reproducible benchmark packs for latency, memory, structured output and user-owned task sets.",
+    "tech": "Ollama/OpenAI-compatible APIs, DuckDB, Streamlit",
+    "effort": "2–3 wk",
+    "business": "H; managed benchmark history",
+    "tier": "advanced",
+    "slug": "localllm-bench",
+    "links": []
+  },
+  {
+    "num": 43,
+    "name": "ModelFit",
+    "problem": "Local-AI users struggle to know which quantization/model fits their hardware.",
+    "product": "Detect hardware, estimate memory needs and benchmark a short candidate list locally.",
+    "tech": "psutil, pynvml, Ollama/llama.cpp adapters",
+    "effort": "2–3 wk",
+    "business": "H; fleet planner. ⚠ hardware support load",
+    "tier": "advanced",
+    "slug": "modelfit",
+    "links": []
+  },
+  {
+    "num": 44,
+    "name": "PromptShield Tests",
+    "problem": "Prompt-injection and data-leak tests are often ad-hoc.",
+    "product": "pytest-style adversarial test packs with local execution, expected policies and regression reports.",
+    "tech": "pytest plugin, LiteLLM, YAML cases",
+    "effort": "2–3 wk",
+    "business": "H; curated enterprise test packs",
+    "tier": "advanced",
+    "slug": "promptshield-tests",
+    "links": []
+  },
+  {
+    "num": 45,
+    "name": "RetryRunner",
+    "problem": "Community questions repeatedly implement retries, backoff and restarts independently. [stackoverflow.com]",
+    "product": "Wrap any command with typed retry policies, timeout, circuit breaker, notifications and structured run history.",
+    "tech": "AnyIO, Tenacity, Typer, SQLite",
+    "effort": "Weekend",
+    "business": "H; hosted job history",
+    "tier": "starter",
+    "slug": "retryrunner",
+    "links": [
+      "https://stackoverflow.com/questions/79415185/how-to-automate-retry-on-error-when-copying-a-file-with-the-windows-explorer-c"
+    ]
+  },
+  {
+    "num": 46,
+    "name": "SettingsPanel",
+    "problem": "Many small Python tools lack a safe UI for editing YAML/TOML/env settings.",
+    "product": "Generate a local web settings UI automatically from a Pydantic model, including validation and secret masking.",
+    "tech": "Pydantic, FastAPI, HTMX",
+    "effort": "1–2 wk",
+    "business": "H; embedded commercial SDK",
+    "tier": "intermediate",
+    "slug": "settingspanel",
+    "links": []
+  },
+  {
+    "num": 47,
+    "name": "LineageManifest",
+    "problem": "File-processing scripts rarely record exactly which inputs, code and parameters created an output.",
+    "product": "Produce portable provenance manifests with hashes, environment, transformation steps and verification CLI.",
+    "tech": "Pydantic, hashlib, GitPython, Typer",
+    "effort": "1–2 wk",
+    "business": "H; compliance/audit edition",
+    "tier": "intermediate",
+    "slug": "lineagemanifest",
+    "links": []
+  },
+  {
+    "num": 48,
+    "name": "AccessBatch",
+    "problem": "Small teams need affordable, repeatable website accessibility checks.",
+    "product": "Crawl sites, run deterministic checks, collect screenshots and create developer-friendly issue bundles.",
+    "tech": "Playwright, axe-core bridge, FastAPI",
+    "effort": "3–4 wk",
+    "business": "H; hosted scans, audit evidence",
+    "tier": "advanced",
+    "slug": "accessbatch",
+    "links": []
+  },
+  {
+    "num": 49,
+    "name": "RedactReview",
+    "problem": "Sharing PDFs/screenshots safely requires slow manual checking.",
+    "product": "Local visual redaction assistant that proposes—not automatically trusts—email, phone and ID regions and permanently verifies removal.",
+    "tech": "PyMuPDF, OCR, Presidio, Streamlit",
+    "effort": "2–3 wk",
+    "business": "H; secure enterprise edition",
+    "tier": "advanced",
+    "slug": "redactreview",
+    "links": []
+  },
+  {
+    "num": 50,
+    "name": "SelfHost Cost Lens",
+    "problem": "Self-hosters repeatedly compare VPS, local hardware, storage, electricity and backup trade-offs. [reddit.com]",
+    "product": "Transparent calculator for deployment scenarios, capacity assumptions and exportable decision records.",
+    "tech": "Streamlit, Pydantic, SQLite",
+    "effort": "Weekend",
+    "business": "M; sponsorship/provider templates",
+    "tier": "starter",
+    "slug": "selfhost-cost-lens",
+    "links": [
+      "https://www.reddit.com/r/selfhosted/comments/10k450w/self_hosting_advice_vps_vs_local_server/"
+    ]
+  }
+]
