@@ -122,7 +122,7 @@ Keep the open-source core useful on its own. Monetization, if pursued, should co
 
 ## Evidence and references
 
-- [../../../../aditi_thakur_nagarro_com/_layouts/15/viewer.aspx?sourcedoc=%7B2b56fea4-2e72-47a0-a7e9-a9ea69cbc464%7D](../../../../aditi_thakur_nagarro_com/_layouts/15/viewer.aspx?sourcedoc=%7B2b56fea4-2e72-47a0-a7e9-a9ea69cbc464%7D)
+- Source link from the original workbook was not publicly resolvable and should be replaced with a stable public reference.
 
 ## Definition of done for v0.1
 
